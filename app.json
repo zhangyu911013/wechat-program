@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/recruit-calendar/index",
+    "pages/qa/index",
+    "pages/account/index"
+  ],
+  "tabBar": {
+    "color": "#a0a9b3",
+    "selectedColor": "#378ced",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "实习",
+        "iconPath": "resources/images/icons/index.png",
+        "selectedIconPath": "resources/images/icons/index-active.png"
+      },
+       {
+        "pagePath": "pages/recruit-calendar/index",
+        "text": "校招",
+        "iconPath": "resources/images/icons/recruit.png",
+        "selectedIconPath": "resources/images/icons/recruit-active.png"
+      }, 
+       {
+        "pagePath": "pages/qa/index",
+        "text": "探索",
+        "iconPath": "resources/images/icons/qa.png",
+        "selectedIconPath": "resources/images/icons/qa-active.png"
+      },
+       {
+        "pagePath": "pages/account/index",
+        "text": "我的",
+        "iconPath": "resources/images/icons/account.png",
+        "selectedIconPath": "resources/images/icons/account-active.png"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#378CED",
+    "navigationBarTitleText": "求职大学",
+    "navigationBarTextStyle":"#fff"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
